@@ -10,7 +10,6 @@ function init() {
 	document.siteName = $('title').html();
 	$('body').addClass("mdui-theme-primary-blue-grey mdui-theme-accent-blue");
 	var html = `
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
 <header class="mdui-appbar mdui-color-theme"> 
    <div id="nav" class="mdui-toolbar mdui-container">
    </div> 
